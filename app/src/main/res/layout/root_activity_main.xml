@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/rootActivityMainFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rootActivityMainRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rootActivityOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+
+            android:button="@null"
+            android:checked="true"
+
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="微信"
+            android:textColor="@drawable/tab_selector_tv_color" />
+
+        <RadioButton
+            android:id="@+id/rootActivityTwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+
+            android:button="@null"
+
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="通讯录"
+            android:textColor="@drawable/tab_selector_tv_color" />
+
+        <RadioButton
+            android:id="@+id/rootActivityThree"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+
+            android:button="@null"
+
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="发现"
+            android:textColor="@drawable/tab_selector_tv_color" />
+
+        <RadioButton
+            android:id="@+id/rootActivityFour"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+
+            android:button="@null"
+
+            android:gravity="center_horizontal|bottom"
+            android:paddingTop="2dp"
+            android:text="我"
+            android:textColor="@drawable/tab_selector_tv_color" />
+
+    </RadioGroup>
+</LinearLayout>
